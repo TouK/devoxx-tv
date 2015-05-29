@@ -65,8 +65,8 @@ function initializeCastApi() {
 
     var appId = '206F7C7D';
 
-    appId = chrome.cast.media.DEFAULT_MEDIA_RECEIVER_APP_ID
-    appId = 'FAA1F6C0'
+    //appId = chrome.cast.media.DEFAULT_MEDIA_RECEIVER_APP_ID
+    //appId = 'FAA1F6C0'
         //chrome.cast.media.DEFAULT_MEDIA_RECEIVER_APP_ID
     var sessionRequest = new chrome.cast.SessionRequest(appId);
     var apiConfig = new chrome.cast.ApiConfig(sessionRequest,
